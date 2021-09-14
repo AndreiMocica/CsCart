@@ -132,6 +132,7 @@ class Retargeting_REST_API_Client
      * @return array
      */
     private function _processRequest() {
+        /*
         if (empty($this->api_path)) {
             $this->_throwException("emptyApiPath");
         }
@@ -162,7 +163,8 @@ class Retargeting_REST_API_Client
             }
         }
 
-        return curl_exec($curl_request);
+        return curl_exec($curl_request);*/
+        return true;
     }
 
     /**
